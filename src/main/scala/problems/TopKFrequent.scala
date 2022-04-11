@@ -1,3 +1,5 @@
+package problems
+
 import scala.collection.mutable.HashMap
 
 object TopKFrequent {
@@ -16,4 +18,4 @@ object TopKFrequent {
   }
 }
 
-// Aprendi HashMap, sort e getOrElse
+// HashMap, sort e getOrElse

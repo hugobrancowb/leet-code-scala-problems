@@ -1,3 +1,5 @@
+package problems
+
 object CalPoints {
   def calPoints(ops: Array[String]): Int = {
     var gameRecord = Array[Int]()
@@ -16,4 +18,4 @@ object CalPoints {
   }
 }
 
-// Com esse desafio aprendi match (switch) e dropRight
+// match (switch) e dropRight
