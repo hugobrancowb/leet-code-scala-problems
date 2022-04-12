@@ -1,5 +1,6 @@
 package problems
 
+/** Link to problem https://leetcode.com/problems/baseball-game */
 object CalPoints {
   def calPoints(ops: Array[String]): Int = {
     var gameRecord = Array[Int]()

@@ -1,15 +1,12 @@
-import problems.ShiftGrid
+import problems._
 object Main extends App {
   println("-" * 30)
 
   Array(
-    ShiftGrid.shiftGrid(Array(Array(1, 2, 3), Array(4, 5, 6), Array(7, 8, 9)), 4),
-    ShiftGrid.shiftGrid(
-      Array(Array(1), Array(2), Array(3), Array(4), Array(6), Array(7), Array(5)),
-      23
-    )
+    GameOfLife.gameOfLife(Array(Array(0, 1, 0), Array(0, 0, 1), Array(1, 1, 1), Array(0, 0, 0))),
+    GameOfLife.gameOfLife(Array(Array(1, 1), Array(1, 0)))
   ).foreach(f => {
-    println(f.mkString)
+    println(f)
   })
 
   println("-" * 30)

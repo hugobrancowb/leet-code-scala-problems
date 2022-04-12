@@ -2,6 +2,7 @@ package problems
 
 import scala.collection.mutable.HashMap
 
+/** Link to problem https://leetcode.com/problems/top-k-frequent-elements */
 object TopKFrequent {
   def topKFrequent(nums: Array[Int], k: Int): Array[Int] = {
     var frequencies = HashMap[Int, Int]()
